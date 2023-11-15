@@ -1,0 +1,103 @@
+/* NavBar css */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+li {
+  float: left; 
+}
+
+li a {
+  display: block;
+  color: rgb(5, 3, 3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: auto; 
+  width: 120px;
+  height: 50px;
+}
+
+
+li a:hover {
+  background-color: rgb(251, 251, 251);
+}
+
+.active {
+  background-color: #4CAF50 !important;
+}
+img{
+  width: 100px;
+  height: 50px;
+  padding: auto;
+  margin: auto;
+}
+#accueil a:hover{
+  background-color: rgb(31, 42, 162)!important;
+}
+a:hover{
+text-decoration: underline !important;
+color: rgb(212, 99, 29);
+}
+li:hover{
+ text-decoration: underline !important;
+ border-bottom: 1px solid rgb(145, 71, 71);
+}
+.nav{
+  background-color: aliceblue  !important;
+}
+/*  NosValeur css */
+.nos{
+  height:400px;
+ margin-top: 57px;
+  padding-left:40px;
+  padding-bottom: 40px;
+  background-color: #caccb8;
+}
+.vd{
+  float: right; 
+  margin-top: -230px;
+ margin-right: 700px;
+ border-radius: 15px;
+}
+.youtube{
+  height: 30px;
+  width: 40px;
+  border-radius: 15px;
+
+}
+.tele{
+  color: rgba(16, 60, 161, 0.841);
+  background-color: orangered;
+  height: 40px;
+  width:150px;
+  border-radius: 15px;
+text-align: center;
+text-decoration: underline;
+margin: 10px;
+font-size: large;
+border-color: orangered;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tele:hover{
+  color: #caccb8;
+  text-decoration: none;
+ 
+}
+.tal{
+
+  background-color: orangered;
+  border: 1px solid;
+}
+.pn{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
