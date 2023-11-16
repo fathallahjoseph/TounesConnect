@@ -1,9 +1,10 @@
 import Navbar from './Navbar';
 import './App.css';
 import NosValeur from './NosValeur';
-import Test from "./Test";
 import NosServices from './NosServices';
 import {Route,Routes}from 'react-router-dom'
+import Website from './Website';
+import Vitrine from './Vitrine';
 function App() {
   return (
     <div>
@@ -11,10 +12,9 @@ function App() {
         <Route path='/' element={<Navbar/>}/>
         <Route path="/nos" element={<NosServices/>}/>
         <Route path="/home" element={<NosValeur/>}/>
-        <Route path='/test' element={<Test/>}/>
+        <Route path="/nos/website" element={<Website/>}/>
+        <Route path="/nos/vitrine" element={<Vitrine/>}/>
       </Routes>
-     
-    
     </div>
   );
 }
